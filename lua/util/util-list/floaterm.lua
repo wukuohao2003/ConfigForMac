@@ -22,6 +22,11 @@ function Lua()
 	lua:toggle()
 end
 
+function Lazy()
+	local lazygit = Terminal:new({ cmd = "lazygit", hidden = true })
+	lazygit:toggle()
+end
+
 function M.Config()
 	floaterm.setup({
 		open_mapping = "<leader>ft",
