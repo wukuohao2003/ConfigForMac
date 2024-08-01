@@ -5,7 +5,6 @@ local fmt = require("luasnip.extras.fmt").fmt
 return {
 	ls.add_snippets("javascript", {
 		ls.snippet(
-			--
 			"log",
 			fmt(
 				[[
