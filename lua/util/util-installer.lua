@@ -106,6 +106,7 @@ function M.Config()
 			"nvim-telescope/telescope.nvim",
 			"nvim-lua/plenary.nvim",
 			-- plugins
+			"nvim-telescope/telescope-project.nvim",
 		})
 
 		-- smooth scroll

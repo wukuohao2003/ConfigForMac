@@ -14,7 +14,7 @@ function M.Config()
 		{ mode = "n", key = "<leader>fo", map = ":Telescope oldfiles<CR>", enabled = true },
 		{ mode = "n", key = "<leader>fs", map = ":Telescope treesitter<CR>", enabled = true },
 		{ mode = "n", key = "<leader>fm", map = ":Telescope noice<CR>", enabled = true },
-		{ mode = "n", key = "<leader>fi", map = ":Telescope import<CR>", enabled = true },
+		{ mode = "n", key = "<leader>fp", map = ":Telescope project<CR>", enabled = true },
 		{ mode = "n", key = "<leader>e", map = ":NvimTreeToggle<CR>", enabled = true },
 		{ mode = "n", key = "<leader>i", map = ":PackerSync<CR>", enabled = true },
 		{ mode = "n", key = "<leader>n", map = ":PackerClean<CR>", enabled = true },
