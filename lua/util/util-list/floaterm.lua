@@ -1,30 +1,9 @@
 local status, floaterm = pcall(require, "toggleterm")
-local Terminal = require("toggleterm.terminal").Terminal
 local M = {}
 
 if not status then
 	vim.notify("Floaterm is not Found ...")
 	return false
-end
-
-function Node()
-	local node = Terminal:new({ cmd = "node", hidden = true })
-	node:toggle()
-end
-
-function Python()
-	local python = Terminal:new({ cmd = "python3", hidden = true })
-	python:toggle()
-end
-
-function Lua()
-	local lua = Terminal:new({ cmd = "lua", hidden = true })
-	lua:toggle()
-end
-
-function Lazy()
-	local lazygit = Terminal:new({ cmd = "lazygit", hidden = true })
-	lazygit:toggle()
 end
 
 function M.Config()

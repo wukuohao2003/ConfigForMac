@@ -38,7 +38,7 @@ function M.Config()
 			},
 		},
 		autotag = {
-			enable = true,
+			enable = false,
 			enable_rename = true,
 			enable_close = true,
 			enable_close_on_slash = true,
@@ -47,8 +47,6 @@ function M.Config()
 				"html",
 				"javascript",
 				"typescript",
-				"javascriptreact",
-				"typescriptreact",
 				"jsx",
 				"tsx",
 				"vue",

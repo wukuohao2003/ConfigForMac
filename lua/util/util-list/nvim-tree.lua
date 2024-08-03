@@ -30,7 +30,7 @@ function M.Config()
 			dotfiles = true,
 		},
 		view = {
-			width = 20,
+			width = float_width,
 			float = {
 				enable = true,
 				quit_on_focus_loss = true,
