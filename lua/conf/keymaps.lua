@@ -22,7 +22,7 @@ function M.Config()
 		{ mode = "n", key = "<leader>ms", map = ":Mason<CR>", enabled = true },
 		{ mode = "n", key = "<leader>db", map = ":DBUI<CR>", enabled = true },
 		{ mode = "n", key = "<leader>rn", map = vim.lsp.buf.rename, enabled = true },
-		{ mode = "n", key = "<leader>jd", map = vim.lsp.buf.declaration, enabled = true },
+		{ mode = "n", key = "<leader>jd", map = vim.lsp.buf.definition, enabled = true },
 	}
 
 	for _, map in ipairs(mappings) do
