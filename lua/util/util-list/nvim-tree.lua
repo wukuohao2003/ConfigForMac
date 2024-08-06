@@ -1,11 +1,12 @@
 local M = {}
 local status, ntree = pcall(require, "nvim-tree")
 
-local screen_width = vim.api.nvim_get_option("columns")
-local screen_height = vim.api.nvim_get_option("lines")
+local current_window = vim.api.nvim_get_current_win()
+local screen_width = vim.api.nvim_win_get_width(current_window)
+local screen_height = vim.api.nvim_win_get_height(current_window)
 
-local float_width = math.floor(vim.api.nvim_win_get_width(0) / 1.5)
-local float_height = math.floor(vim.api.nvim_win_get_height(0) / 1.5)
+local float_width = math.floor(screen_width / 1.5)
+local float_height = math.floor(screen_height / 1.5)
 local float_col = math.floor((screen_width - float_width) / 2)
 local float_row = math.floor((screen_height - float_height) / 2)
 
@@ -66,7 +67,7 @@ function M.Config()
 						staged = "󰜘",
 						unmerged = "",
 						renamed = "󰴒",
-						untracked = "",
+						untracked = "",
 						deleted = "󱂦",
 						ignored = "◌",
 					},
