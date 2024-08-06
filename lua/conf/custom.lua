@@ -18,7 +18,7 @@ function M.Config()
 		{ type = "option", method = "autoindent", value = true },
 		{ type = "option", method = "smartindent", value = true },
 		{ type = "option", method = "clipboard", value = "unnamedplus" },
-		{ type = "option", method = "cursorline", value = true },
+		{ type = "option", method = "cursorline", value = false },
 		{ type = "option", method = "splitbelow", value = false },
 		{ type = "option", method = "splitright", value = true },
 		{ type = "option", method = "confirm", value = false },
@@ -31,7 +31,7 @@ function M.Config()
 		{ type = "option", method = "pumwidth", value = 10 },
 		{ type = "option", method = "autoread", value = true },
 		{ type = "option", method = "showmode", value = false },
-		{ type = "colors", method = "colorscheme", value = "catppuccin-frappe" },
+		{ type = "colors", method = "colorscheme", value = "catppuccin-mocha" },
 	}
 
 	for _, item in ipairs(custom) do
