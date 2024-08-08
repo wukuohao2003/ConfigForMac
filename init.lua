@@ -3,7 +3,7 @@ local modules = {
 	{ moduleName = "conf.keymaps", enabled = true },
 	{ moduleName = "conf.custom", enabled = true },
 	{ moduleName = "util.util-installer", enabled = true },
-	{ moduleName = "util.util-configs.icons", enabled = true },
+	{ moduleName = "util.util-configs.file-icons", enabled = true },
 	{ moduleName = "util.util-configs.nvim-tree", enabled = true },
 	{ moduleName = "util.util-configs.tree-sitter", enabled = true },
 	{ moduleName = "util.util-configs.telescope", enabled = true },
