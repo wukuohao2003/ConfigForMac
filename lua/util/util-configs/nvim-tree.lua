@@ -55,8 +55,8 @@ function M.Config()
 					folder = {
 						arrow_closed = "",
 						arrow_open = "",
-						default = "󰚝",
-						open = "󰝰",
+						default = "",
+						open = "",
 						empty = "󱃫",
 						empty_open = "",
 						symlink = "",

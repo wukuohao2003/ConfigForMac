@@ -10,10 +10,10 @@ function M.Config()
 			msg = "",
 		},
 		{
-			mode = { "BufEnter", "WinEnter" },
-			pattern = "*",
+			mode = { "BufEnter" },
+			pattern = { "*" },
 			command = "colorscheme catppuccin-frappe",
-			enable = "true",
+			enable = true,
 			msg = "",
 		},
 	}
