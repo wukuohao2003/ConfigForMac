@@ -61,7 +61,7 @@ function M.Config()
 		["favicon.ico"] = { icon = "󱞈", color = "#c0fbfd", name = "favicon" },
 		["app.js"] = { icon = "", color = "#dae0ff", name = "app_js" },
 		["App.js"] = { icon = "", color = "#dae0ff", name = "App_ts" },
-		["init.lua"] = { icon = "󰇄", color = "#c0fbfd", name = "init" },
+		["init.lua"] = { icon = "", color = "#c0fbfd", name = "init" },
 		["package.json"] = { icon = "", color = "#c0fbfd", name = "package" },
 		["package.lua"] = { icon = "󱑢", color = "#dae0ff", name = "pkg_installer" },
 		["commands.lua"] = { icon = "󰘳", color = "#dae0ff", name = "autocommands" },
